@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random User Generator</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div
+      class="font-'Times New Roman' text-white text-center bg-[url('https://t3.ftcdn.net/jpg/05/31/68/78/360_F_531687877_uWAuIQ5xvlJelhkjlsqhnIzkA07C9XVk.jpg')] bg-cover h-screen flex flex-col justify-center items-center"
+    >
+      <h1 class="text-[30px] font-bold text-black text-shadow-lg">
+        Random User Generator
+      </h1>
+      <div
+        class="container text-center bg-[#FEC9E3]/40 transition-all duration-500 shadow-md rounded-lg shadow-lg p-8 mt-4 max-w-[400px] w-[90%]"
+      >
+        <button
+          id="user-btn"
+          class="bg-green-700 px-4 py-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full hover:transform-3d hover:scale-105 hover:opacity-100 hover:blur-none hover:duration-500 hover:shadow-lg hover:shadow-[#FEBE96]/50 transition-all duration-500 text-white font-bold cursor-pointer"
+        >
+          Get Random User
+        </button>
+        <div id="user-container" class="mt-[16px]"></div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
